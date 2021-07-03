@@ -1,2 +1,0 @@
-# Devsnet-Frontend
-Web Development

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+      How to check if a variable
+      is an array in JavaScript?
+  </title>
+</head>
+  
+<body>
+  <h1 id ="output"> The given Elements clone is  </h1>
+  <script>
+    function clone ( ... input ) {
+        var input_cloned = [] ;
+        for ( let i=0 ; i< input.length ; i++)
+        {
+            input_cloned[i] = input[i];
+        }
+        return input_cloned;
+        };
+    var inp = window.prompt(" Enter the input -");
+    document.getElementById("output").innerHTML = console.log( clone( inp));
+  
+  </script>
+</body>
+  
+</html>

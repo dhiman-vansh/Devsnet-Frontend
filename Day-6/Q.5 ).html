@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Find max</title>
+</head>
+<body>
+    <h1> lets find elemnt which comes the most -</h1>
+    <p id="out"></p>
+</body>
+<script>
+    var ar = [2,25,2,46,2];
+    // var sum = new Array();
+    var sum = [0,0,0,0,0];
+    for ( var i =0 ; i<ar.length ; i++)
+    {
+        let temp =ar[i] ;
+        for( var j =i ; j< ar.length ; j++)
+        {
+            if( ar[j] == temp) { sum[i]++ ;}
+        }
+    }
+    console.log(sum);
+     var mf = Math.max(...sum);
+    
+    var x = sum.indexOf(mf);
+    console.log(" Most frequent element is -" + mf +ar[x]);
+</script>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-size: 200%;
+    }
+    table {
+        background-color: peachpuff;
+        width: 100%;
+        border: solid black;
+    }
+    th {
+        padding: 3%;
+        font-size: 180%;
+    }
+    td {
+        text-align: center;
+        font-size: 150%;
+    }
+    body {
+        background: aqua;
+    }
+
+    a {
+        width: 100%  ;
+        background-color: brown;
+        padding: 50px;
+        display: inline-flex;
+        width: 15%;
+        height: 70px;
+        margin: 1%;
+        border-radius: 20%;
+    }
+    
+    a:hover {
+        background-color: rgb(228, 150, 150);
+    }
+</style>
+<body>
+    <div>
+        <h1 > The number of Seats are there -</h1>
+        <table>
+            <Tr>
+                <th>Available</th>
+                <th>Occupied</th>
+            </Tr>
+            <tr>
+                <td id = "ava">12</td>
+                <td id = "occ">0</td>
+            </tr>
+        </table>
+    </div>
+    
+    <a id="a" onclick="change(id)"></a>
+    <a id="b" onclick="change(id)"></a>
+    <a id="c" onclick="change(id)"></a>
+    <a id="d" onclick="change(id)"></a>
+    <a id="e" onclick="change(id)"></a>
+    <a id="f" onclick="change(id)"></a>
+    <a id="g" onclick="change(id)"></a>
+    <a id="h" onclick="change(id)"></a>
+    <a id="i" onclick="change(id)"></a>
+    <a id="j" onclick="change(id)"></a>
+    <a id="k" onclick="change(id)"></a>
+    <a id="l" onclick="change(id)"></a>
+    
+</body>
+<script>
+    var i = 0;
+    var avail = 12 ;
+    function change (x) {
+        let y = document.getElementById(x);
+        y.style.backgroundColor = "white";
+        i++; avail = 12- i ;
+        document.getElementById("occ").innerHTML = i ;
+        document.getElementById("ava").innerHTML = avail;
+        console.log(i);
+    }
+   
+</script>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-color: peachpuff;
+}
+h1 {
+    text-align: center;
+    color: purple;
+    padding: 5%;
+    font-size: 60px;
+}
+
+.head {
+    padding: 2%;
+    font-size: 30px;
+    
+}
+
+.options {
+    font-size: 20px;
+    padding: 1%;
+    margin: 2%;
+    background-color: burlywood;
+}
+.options:hover {
+    background-color: white;
+}
+
+.right {
+    font-size: 20px;
+    padding: 1%;
+    margin: 2%;
+    background-color: greenyellow;
+}
+
+.wrong {
+    font-size: 20px;
+    padding: 1%;
+    margin: 2%;
+    background-color: red;
+}

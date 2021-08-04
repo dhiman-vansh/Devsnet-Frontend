@@ -1,0 +1,28 @@
+body {
+    background-color: peachpuff;
+}
+div {
+    /* position:relative; */
+    height: 715px;
+    width: 620px;
+    background-color: black;  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    flex-direction: column;
+    
+}
+
+div.box {
+    /* position: relative; */
+    height: 100px;
+    width: 100px  ;
+    background-color:rgb(44, 42, 42);
+    color: peachpuff;
+    font-size: 100px;
+    
+}
+.box:nth-child(odd) {
+    background-color: rgb(155, 148, 148)
+    ;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: burlywood;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 518px;
+    height: auto;
+    padding: 2px;
+}
+.boxw {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border: yellow solid 2px;
+    padding: 10px;
+}
+.boxb {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: yellow solid 2px;
+    padding: 10px;
+}
+/* .box:nth-child(odd) {
+    background-color: black;
+} */

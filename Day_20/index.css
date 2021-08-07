@@ -1,0 +1,43 @@
+body {
+    background-color: cadetblue;
+}
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: peachpuff;
+    width: 25%;
+    padding: 3%;
+    border: black solid 2px;
+    border-radius: 50px;
+    margin: 1%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 50px;
+}
+h2,  h3 {
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.card:hover {
+    background-color: azure;
+    cursor: pointer;
+}
+
+body h1 {
+    text-align: center;
+    background-color: aqua;
+    padding: 40px;
+    border: solid 4px red;
+    border-radius: 20px;
+
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+form {
+  text-align: center;
+  background-color:rgb(238, 194, 141);
+  border: solid 4px orange;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+input {
+  background-color: gainsboro;
+  padding: 10px;
+  margin:10px;
+}
+
+button {
+  padding: 10px;
+}
+button:hover {
+  background-color: grey;
+  color: whitesmoke;
+}

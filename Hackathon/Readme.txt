@@ -1,1 +1,0 @@
-Last hackathon of Devsnest
